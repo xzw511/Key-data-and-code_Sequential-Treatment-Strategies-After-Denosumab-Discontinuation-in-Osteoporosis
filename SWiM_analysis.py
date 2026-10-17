@@ -16,7 +16,7 @@ import matplotlib.pyplot as plt
 
 
 HERE = Path(__file__).resolve().parent
-INPUT = HERE / "1016_新datacode_Reports作者年份_SWiM_data.xlsx"
+INPUT = HERE / "SWiM_data.xlsx"
 OUT = HERE / "SWiM_reanalysis_output"
 OUT.mkdir(exist_ok=True)
 
